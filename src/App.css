@@ -2,10 +2,26 @@
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.formContainer {
+  /* border: 1px solid red; */
+  width: 300px;
+  align-items: center;
+  text-align: left;
+  margin: 0 auto;
+
 }
+
+.formButton {
+  text-align: center;
+  margin-left: 60px;
+  /* border: 1px solid red; */
+}
+
+.errorMsg {
+  color: red;
+}
+
+
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
